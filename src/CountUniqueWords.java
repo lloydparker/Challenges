@@ -113,7 +113,7 @@ public class CountUniqueWords
 		BufferedWriter writer = null;
 		try 
 		{
-			writer = new BufferedWriter( new FileWriter( "output.txt"));
+			writer = new BufferedWriter( new FileWriter( "C:\\Users\\Lloyd\\Desktop\\output.txt"));
 			writer.write(outputString);
 		}
 		catch (IOException e)
